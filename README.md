@@ -1,13 +1,13 @@
 ## Portfolio Project
 
 ## Description
-This project had me creating my portfolio that I will be able to use later on to showcase work I have done to future employers. I included 3 sections including About Me, Completed Works, and Contact Me. For now, only one item falls under completed works, but I plan to add more projects to that as the bootcamp progresses. 
+This project had me creating my portfolio that I will be able to use later on to showcase work I have done to future employers. I included 3 sections including About Me, Completed Works, and Contact Me. For now, only one item falls under completed works with some placeholders to fill out space on the webpage. I plan to add more projects to this section as the bootcamp progresses. On this site you are able to click the links at the top right of the page to take you to whichever section you are interested in viewing. You can also click on the images of my completed projects and this will redirect you to that projects webpage. I have included a link to my email at the end of this site should anyone need to get in contact with me regarding this project. I have also included a link to my Github account where anyone can view other repositories I have been working on.
 
 ## Badges
 N/A
 
 ## Visuals
-
+<img width="945" alt="Portfolio-Project" src="https://github.com/Ida-Whit/Portfolio/assets/144244727/dbd0258c-4c98-4be3-8146-e0ca789f5d5c">
 
 ## Installation
 N/A
