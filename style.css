@@ -4,7 +4,6 @@
 }
 
 header{
-  justify-content: space-between;
   background-color: var(--background);
   color: var(--text);
   padding-bottom: 25px;
@@ -18,15 +17,13 @@ nav ul{
   position: absolute;
   top: 8px;
   right: 16px;
-  font-size: 18px;
+  font-size: 100%;
 }
 
 header li{
   list-style-type: none;
   display:flex inline;
-  justify-content: space-between;
   margin: 4px;
-  text-decoration: underline;
 }
 
 .banner{
@@ -37,6 +34,7 @@ header li{
 
 .text{
   position: absolute;
+  font-size: 40px;
   top: 8px;
   left: 16px
 }
@@ -48,23 +46,25 @@ nav a {
   }
   
 nav a:hover {
-  color: black;
+  text-decoration: underline;
   }
 
 body{
   background-color: var(--background);
 }
 
+
 section h2{
   text-align: center;
   flex-basis: 33%;
   margin: auto;
-  width: 25%;
+  width: 30%;
   border-radius: 15px;
   border: 2px black solid
 }
 
 h2{
+  color: var(--text);
   background-color: var(--background)
 }
 
@@ -83,13 +83,16 @@ h2{
 }
 
 .profile{
-  height: 400px;
-  width: 400px;
+  height: 50%;
+  width: 50%;
 }
 
 .completed-image{
-  height: 200px;
-  width: auto;
+  height: 100%;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .image{
@@ -103,14 +106,20 @@ h2{
   font-size: 20px;
 }
 
-@media screen and (max-width: 992px){
 
+@media screen and (max-width: 992px) {
 }
 
-@media screen and (max-width: 768px){
-
-}
-
-@media screen and (max-width: 576px){
-
+@media screen and (max-width: 768px) {
+  .content{
+    display: block;
+  }
+  header li{
+    display: block;
+  }
+  .profile{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
 }
